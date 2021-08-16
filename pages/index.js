@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Map } from "../components/Map";
+import GoogleMap from "../components/GoogleMap";
 export default function Home() {
   return (
     <div>
@@ -11,7 +11,9 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Map />
+      {/* <Map />
+       */}
+      <GoogleMap />
     </div>
   );
 }

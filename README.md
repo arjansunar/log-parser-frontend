@@ -1,3 +1,12 @@
+## Project screen shots
+
+- main visual graph of the data of users connecting to the server
+  ![](./images/map.png)
+- users of the server shown by day
+  ![](./images/bar-graph.png)
+  - visual representation of the browser and os used to access the server
+    ![](./images/donut-chart.png)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

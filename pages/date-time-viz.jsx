@@ -7,7 +7,7 @@ const options = {
     yAxes: [
       {
         ticks: {
-          beginAtZero: true,
+          beginAtZero: false,
         },
       },
     ],
@@ -25,7 +25,7 @@ function DateViz() {
           labels: Object.keys(d),
           datasets: [
             {
-              label: "# of Votes",
+              label: "Number of Users",
               data: Object.values(d),
               fill: true,
               backgroundColor: "rgb(64, 140, 226)",
